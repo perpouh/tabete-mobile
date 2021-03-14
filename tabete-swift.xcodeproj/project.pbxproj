@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD182B5A25FDE51A006DA885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182B5925FDE51A006DA885 /* AppDelegate.swift */; };
+		DD182B5C25FDE51A006DA885 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182B5B25FDE51A006DA885 /* SceneDelegate.swift */; };
+		DD182B5E25FDE51A006DA885 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182B5D25FDE51A006DA885 /* ViewController.swift */; };
+		DD182B6125FDE51A006DA885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD182B5F25FDE51A006DA885 /* Main.storyboard */; };
+		DD182B6325FDE51C006DA885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD182B6225FDE51C006DA885 /* Assets.xcassets */; };
+		DD182B6625FDE51C006DA885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD182B6425FDE51C006DA885 /* LaunchScreen.storyboard */; };
+		DD182B7125FDE51D006DA885 /* tabete_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182B7025FDE51D006DA885 /* tabete_swiftTests.swift */; };
+		DD182B7C25FDE51D006DA885 /* tabete_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182B7B25FDE51D006DA885 /* tabete_swiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD182B6D25FDE51D006DA885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD182B4E25FDE51A006DA885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD182B5525FDE51A006DA885;
+			remoteInfo = "tabete-swift";
+		};
+		DD182B7825FDE51D006DA885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD182B4E25FDE51A006DA885 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD182B5525FDE51A006DA885;
+			remoteInfo = "tabete-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD182B5625FDE51A006DA885 /* tabete-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tabete-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD182B5925FDE51A006DA885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD182B5B25FDE51A006DA885 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD182B5D25FDE51A006DA885 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD182B6025FDE51A006DA885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD182B6225FDE51C006DA885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD182B6525FDE51C006DA885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD182B6725FDE51C006DA885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD182B6C25FDE51D006DA885 /* tabete-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabete-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD182B7025FDE51D006DA885 /* tabete_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabete_swiftTests.swift; sourceTree = "<group>"; };
+		DD182B7225FDE51D006DA885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD182B7725FDE51D006DA885 /* tabete-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabete-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD182B7B25FDE51D006DA885 /* tabete_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabete_swiftUITests.swift; sourceTree = "<group>"; };
+		DD182B7D25FDE51D006DA885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD182B5325FDE51A006DA885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD182B6925FDE51D006DA885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD182B7425FDE51D006DA885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD182B4D25FDE51A006DA885 = {
+			isa = PBXGroup;
+			children = (
+				DD182B5825FDE51A006DA885 /* tabete-swift */,
+				DD182B6F25FDE51D006DA885 /* tabete-swiftTests */,
+				DD182B7A25FDE51D006DA885 /* tabete-swiftUITests */,
+				DD182B5725FDE51A006DA885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD182B5725FDE51A006DA885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD182B5625FDE51A006DA885 /* tabete-swift.app */,
+				DD182B6C25FDE51D006DA885 /* tabete-swiftTests.xctest */,
+				DD182B7725FDE51D006DA885 /* tabete-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD182B5825FDE51A006DA885 /* tabete-swift */ = {
+			isa = PBXGroup;
+			children = (
+				DD182B5925FDE51A006DA885 /* AppDelegate.swift */,
+				DD182B5B25FDE51A006DA885 /* SceneDelegate.swift */,
+				DD182B5D25FDE51A006DA885 /* ViewController.swift */,
+				DD182B5F25FDE51A006DA885 /* Main.storyboard */,
+				DD182B6225FDE51C006DA885 /* Assets.xcassets */,
+				DD182B6425FDE51C006DA885 /* LaunchScreen.storyboard */,
+				DD182B6725FDE51C006DA885 /* Info.plist */,
+			);
+			path = "tabete-swift";
+			sourceTree = "<group>";
+		};
+		DD182B6F25FDE51D006DA885 /* tabete-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD182B7025FDE51D006DA885 /* tabete_swiftTests.swift */,
+				DD182B7225FDE51D006DA885 /* Info.plist */,
+			);
+			path = "tabete-swiftTests";
+			sourceTree = "<group>";
+		};
+		DD182B7A25FDE51D006DA885 /* tabete-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD182B7B25FDE51D006DA885 /* tabete_swiftUITests.swift */,
+				DD182B7D25FDE51D006DA885 /* Info.plist */,
+			);
+			path = "tabete-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD182B5525FDE51A006DA885 /* tabete-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD182B8025FDE51D006DA885 /* Build configuration list for PBXNativeTarget "tabete-swift" */;
+			buildPhases = (
+				DD182B5225FDE51A006DA885 /* Sources */,
+				DD182B5325FDE51A006DA885 /* Frameworks */,
+				DD182B5425FDE51A006DA885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tabete-swift";
+			productName = "tabete-swift";
+			productReference = DD182B5625FDE51A006DA885 /* tabete-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD182B6B25FDE51D006DA885 /* tabete-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD182B8325FDE51D006DA885 /* Build configuration list for PBXNativeTarget "tabete-swiftTests" */;
+			buildPhases = (
+				DD182B6825FDE51D006DA885 /* Sources */,
+				DD182B6925FDE51D006DA885 /* Frameworks */,
+				DD182B6A25FDE51D006DA885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD182B6E25FDE51D006DA885 /* PBXTargetDependency */,
+			);
+			name = "tabete-swiftTests";
+			productName = "tabete-swiftTests";
+			productReference = DD182B6C25FDE51D006DA885 /* tabete-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD182B7625FDE51D006DA885 /* tabete-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD182B8625FDE51D006DA885 /* Build configuration list for PBXNativeTarget "tabete-swiftUITests" */;
+			buildPhases = (
+				DD182B7325FDE51D006DA885 /* Sources */,
+				DD182B7425FDE51D006DA885 /* Frameworks */,
+				DD182B7525FDE51D006DA885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD182B7925FDE51D006DA885 /* PBXTargetDependency */,
+			);
+			name = "tabete-swiftUITests";
+			productName = "tabete-swiftUITests";
+			productReference = DD182B7725FDE51D006DA885 /* tabete-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD182B4E25FDE51A006DA885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DD182B5525FDE51A006DA885 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					DD182B6B25FDE51D006DA885 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DD182B5525FDE51A006DA885;
+					};
+					DD182B7625FDE51D006DA885 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = DD182B5525FDE51A006DA885;
+					};
+				};
+			};
+			buildConfigurationList = DD182B5125FDE51A006DA885 /* Build configuration list for PBXProject "tabete-swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD182B4D25FDE51A006DA885;
+			productRefGroup = DD182B5725FDE51A006DA885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD182B5525FDE51A006DA885 /* tabete-swift */,
+				DD182B6B25FDE51D006DA885 /* tabete-swiftTests */,
+				DD182B7625FDE51D006DA885 /* tabete-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD182B5425FDE51A006DA885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD182B6625FDE51C006DA885 /* LaunchScreen.storyboard in Resources */,
+				DD182B6325FDE51C006DA885 /* Assets.xcassets in Resources */,
+				DD182B6125FDE51A006DA885 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD182B6A25FDE51D006DA885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD182B7525FDE51D006DA885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD182B5225FDE51A006DA885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD182B5E25FDE51A006DA885 /* ViewController.swift in Sources */,
+				DD182B5A25FDE51A006DA885 /* AppDelegate.swift in Sources */,
+				DD182B5C25FDE51A006DA885 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD182B6825FDE51D006DA885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD182B7125FDE51D006DA885 /* tabete_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD182B7325FDE51D006DA885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD182B7C25FDE51D006DA885 /* tabete_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD182B6E25FDE51D006DA885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD182B5525FDE51A006DA885 /* tabete-swift */;
+			targetProxy = DD182B6D25FDE51D006DA885 /* PBXContainerItemProxy */;
+		};
+		DD182B7925FDE51D006DA885 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD182B5525FDE51A006DA885 /* tabete-swift */;
+			targetProxy = DD182B7825FDE51D006DA885 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD182B5F25FDE51A006DA885 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD182B6025FDE51A006DA885 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD182B6425FDE51C006DA885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD182B6525FDE51C006DA885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD182B7E25FDE51D006DA885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD182B7F25FDE51D006DA885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD182B8125FDE51D006DA885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YL3L79LWQ;
+				INFOPLIST_FILE = "tabete-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perpouh.tabete-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD182B8225FDE51D006DA885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YL3L79LWQ;
+				INFOPLIST_FILE = "tabete-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perpouh.tabete-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD182B8425FDE51D006DA885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YL3L79LWQ;
+				INFOPLIST_FILE = "tabete-swiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perpouh.tabete-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabete-swift.app/tabete-swift";
+			};
+			name = Debug;
+		};
+		DD182B8525FDE51D006DA885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YL3L79LWQ;
+				INFOPLIST_FILE = "tabete-swiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perpouh.tabete-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tabete-swift.app/tabete-swift";
+			};
+			name = Release;
+		};
+		DD182B8725FDE51D006DA885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YL3L79LWQ;
+				INFOPLIST_FILE = "tabete-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perpouh.tabete-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tabete-swift";
+			};
+			name = Debug;
+		};
+		DD182B8825FDE51D006DA885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YL3L79LWQ;
+				INFOPLIST_FILE = "tabete-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.perpouh.tabete-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tabete-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD182B5125FDE51A006DA885 /* Build configuration list for PBXProject "tabete-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD182B7E25FDE51D006DA885 /* Debug */,
+				DD182B7F25FDE51D006DA885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD182B8025FDE51D006DA885 /* Build configuration list for PBXNativeTarget "tabete-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD182B8125FDE51D006DA885 /* Debug */,
+				DD182B8225FDE51D006DA885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD182B8325FDE51D006DA885 /* Build configuration list for PBXNativeTarget "tabete-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD182B8425FDE51D006DA885 /* Debug */,
+				DD182B8525FDE51D006DA885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD182B8625FDE51D006DA885 /* Build configuration list for PBXNativeTarget "tabete-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD182B8725FDE51D006DA885 /* Debug */,
+				DD182B8825FDE51D006DA885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD182B4E25FDE51A006DA885 /* Project object */;
+}
