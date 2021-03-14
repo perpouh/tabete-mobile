@@ -15,6 +15,9 @@
 		DD182B6625FDE51C006DA885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD182B6425FDE51C006DA885 /* LaunchScreen.storyboard */; };
 		DD182B7125FDE51D006DA885 /* tabete_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182B7025FDE51D006DA885 /* tabete_swiftTests.swift */; };
 		DD182B7C25FDE51D006DA885 /* tabete_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182B7B25FDE51D006DA885 /* tabete_swiftUITests.swift */; };
+		DD182B8D25FDF200006DA885 /* DefaultArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182B8C25FDF200006DA885 /* DefaultArticleCell.swift */; };
+		DD182B9225FDF213006DA885 /* DefaultArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD182B9125FDF213006DA885 /* DefaultArticleCell.xib */; };
+		DD182B9A25FE27CE006DA885 /* TimeLineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD182B9925FE27CE006DA885 /* TimeLineController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		DD182B7725FDE51D006DA885 /* tabete-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tabete-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD182B7B25FDE51D006DA885 /* tabete_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabete_swiftUITests.swift; sourceTree = "<group>"; };
 		DD182B7D25FDE51D006DA885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD182B8C25FDF200006DA885 /* DefaultArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultArticleCell.swift; sourceTree = "<group>"; };
+		DD182B9125FDF213006DA885 /* DefaultArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultArticleCell.xib; sourceTree = "<group>"; };
+		DD182B9925FE27CE006DA885 /* TimeLineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				DD182B6225FDE51C006DA885 /* Assets.xcassets */,
 				DD182B6425FDE51C006DA885 /* LaunchScreen.storyboard */,
 				DD182B6725FDE51C006DA885 /* Info.plist */,
+				DD182B8C25FDF200006DA885 /* DefaultArticleCell.swift */,
+				DD182B9125FDF213006DA885 /* DefaultArticleCell.xib */,
+				DD182B9925FE27CE006DA885 /* TimeLineController.swift */,
 			);
 			path = "tabete-swift";
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD182B9225FDF213006DA885 /* DefaultArticleCell.xib in Resources */,
 				DD182B6625FDE51C006DA885 /* LaunchScreen.storyboard in Resources */,
 				DD182B6325FDE51C006DA885 /* Assets.xcassets in Resources */,
 				DD182B6125FDE51A006DA885 /* Main.storyboard in Resources */,
@@ -258,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD182B8D25FDF200006DA885 /* DefaultArticleCell.swift in Sources */,
 				DD182B5E25FDE51A006DA885 /* ViewController.swift in Sources */,
 				DD182B5A25FDE51A006DA885 /* AppDelegate.swift in Sources */,
+				DD182B9A25FE27CE006DA885 /* TimeLineController.swift in Sources */,
 				DD182B5C25FDE51A006DA885 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
